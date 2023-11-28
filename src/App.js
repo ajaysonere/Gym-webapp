@@ -14,10 +14,16 @@ import Navbar from './components/Navbar';
 const App = () => {
   return (
     <BrowserRouter>
-       <Navbar/>
-       <Routes >
-         <Route></Route>
-       </Routes>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="about" element={<About />}></Route>
+        <Route path="contact" element={<Contact />}></Route>
+        <Route path="gallery" element={<Gallery />}></Route>
+        <Route path="plans" element={<Plans />}></Route>
+        <Route path="trainers" element={<Trainers />}></Route>
+        <Route path="*" element={<Notfound />}></Route>
+      </Routes>
     </BrowserRouter>
   );
 };

@@ -2,8 +2,8 @@ import './gallery.css';
 
 const Gallery = () => {
     return(
-       <div>
-
+       <div> 
+           <h1> Gallery </h1>
        </div>
     );
 };

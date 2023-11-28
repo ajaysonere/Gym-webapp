@@ -1,9 +1,10 @@
+import Mainheader from '../../components/Mainheader';
 import './home.css';
 
 const Home = ()=>{
     return(
        <div >
-            <h1>Home</h1>
+            <Mainheader/>
        </div>
     );
 };

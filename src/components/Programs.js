@@ -13,7 +13,7 @@ const Programs = () => {
         <div className="programs__wrapper">
           {programs.map(({ id, icon, title, info, path }) => {
             return (
-              <Card className="programs__program" id={id}>
+              <Card className="programs__program" key={id}>
                 <span>{icon}</span>
                 <h4>{title}</h4>
                 <small>{info}</small>

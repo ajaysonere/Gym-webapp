@@ -1,3 +1,4 @@
+import Faqsections from '../../components/Faqsections';
 import Mainheader from '../../components/Mainheader';
 import Programs from '../../components/Programs';
 import Values from '../../components/Values';
@@ -9,6 +10,7 @@ const Home = ()=>{
             <Mainheader/>
             <Programs />
             <Values />
+            <Faqsections />
        </div>
     );
 };

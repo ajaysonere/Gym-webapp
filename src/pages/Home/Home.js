@@ -3,6 +3,8 @@ import Mainheader from '../../components/Mainheader';
 import Programs from '../../components/Programs';
 import Testimonials from '../../components/Testimonials';
 import Values from '../../components/Values';
+import Footer from "../../components/Footer";
+
 import './home.css';
 
 const Home = ()=>{
@@ -13,6 +15,7 @@ const Home = ()=>{
             <Values />
             <Faqsections />
             <Testimonials />
+            <Footer />
        </div>
     );
 };

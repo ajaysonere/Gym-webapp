@@ -273,9 +273,140 @@ footer{
     color: var(--color-gray-100);
     text-align: center;
     padding: 1.5rem 0;
-    border-top: 2px solid var(--color-secondary);
+    border-top: 2px solid var(--color-gray-400);
     margin-top: 5rem;
 }
 .footer__copyright small{
     font-size: 0.9rem;
+}
+
+
+/* Media query for home */
+
+@media screen and (max-width : 1024px) {
+    .main__header{
+        width: fit-content;
+        padding: 12rem 0;
+    }
+
+    .main__header-container{
+        gap: 0;
+    }
+
+    .main__header-circle{
+        width: 16rem;
+        height: 16rem;
+    }
+
+    /* Programs */
+
+    .programs__wrapper{
+       grid-template-columns: 1fr 1fr;
+    }
+
+    /* Values */
+    .value__container {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        gap: 4rem;
+    }
+
+    .values__wrapper {
+        gap: 4rem 3rem;
+    }
+
+    .value__image {
+        display: none;
+    }
+
+    /* FAQs section */
+
+    .faqs__wrapper {
+        grid-template-columns: 1fr;
+    }
+   
+    /* testimonials */
+
+    .testimonials{
+        width: 75%;
+    }
+
+    /* Footer */
+
+    .footer__container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media screen and (max-width : 600px ){
+    .main__header {
+        margin-top: 0rem;
+        padding: 12rem 0 0;
+        height: 100vh;
+    }
+
+    .main__header-circle , .main__header-image {
+        display: none;
+    }
+
+    .main__header-container {
+        grid-template-columns: 1fr;
+    }
+
+    /* Programs */
+
+
+    .programs__wrapper {
+        grid-template-columns:  1fr;
+        margin-top: 3rem;
+        gap: 2rem;
+    }
+
+    .programs__program {
+        width: 84%;
+        margin: 0 auto;
+    }
+
+    /* values */
+
+    .values__wrapper{
+       grid-template-columns: 1fr;
+       gap: 3rem;
+    }
+
+    .card.values__value {
+        width: 84%;
+        margin: 0 auto;
+    }
+
+    /* faqs section */
+
+    .faqs__wrapper {
+        gap: 1rem;
+        margin-top: 3rem;
+    }
+
+    /* testimonials */
+    .testimonials {
+        width: 100%;
+    }
+
+    /* footer */
+
+    footer {
+        margin-top: 7rem;
+    }
+    .footer__container {
+        grid-template-columns:  1fr;
+        gap: 3rem;
+    }
+
+    .footer__container article {
+        align-items: center;
+    }
+
+    .footer__container article p {
+        text-align: center;
+    }
 }

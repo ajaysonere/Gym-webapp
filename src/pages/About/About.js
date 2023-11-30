@@ -1,9 +1,9 @@
 import './about.css';
 import Header from '../../components/Header';
 import headerImage from '../../images/header_bg_1.jpg';
-import storyImage from '../../images/about1.jpg';
-import visionImage from '../../images/about2.jpg';
-import missionImage from '../../images/about3.jpg';
+import storyImage from '../../images/trainer1.jpg';
+import visionImage from '../../images/trainer4.jpg';
+import missionImage from '../../images/trainer5.jpg';
 
 
 const About = ()=>{

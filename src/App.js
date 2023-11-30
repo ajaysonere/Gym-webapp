@@ -10,6 +10,7 @@ import Notfound from './pages/Notfound/Notfound';
 
 // components
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="trainers" element={<Trainers />}></Route>
         <Route path="*" element={<Notfound />}></Route>
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 };
